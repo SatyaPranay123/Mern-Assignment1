@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TASK2</title>
+    <style>
+        #vertical {
+            display: inline-block;
+            border : 2px solid black;
+            height : 320px;
+            width : 300px;
+            float : left;
+            margin-left: 25px;
+        }
+        #head1{
+            margin-left:40px;
+        }
+        #inside {
+            height : 307px;
+            width : 280px;
+            margin-left: 10px;
+            margin-top: 10px;
+            background-color: aqua;
+        }
+        #inner {
+            height : 56px;
+            width : 280px;
+            font-size: 30px;
+            background-color: orange;
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 5px;
+        }
+        #inhead3 {
+            display: block;
+            color : white;
+            margin-top: 4%;
+        }
+        #innhead3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            display: block;
+            margin-top: 4%;
+            color : blue;
+            padding-left: 5px;
+        }
+        #horizontal {
+            display: flex;
+            height : 80px;
+            width : 39.5vw;
+            margin-left: 3%;
+        }
+        #outside{
+            padding: 0.5em;;
+            border: 2px solid black;
+            width:40vw;
+            margin-left: 30%;
+        }
+        #home{
+            background-color: black;
+            color: white;
+            font-size: 25px;
+        }
+        .a1 {
+            width:20%;
+            padding: 5%;
+            color:blue;
+            text-align: center;
+            background-color: rgba(128, 128, 128, 0.401);
+            border-right: 2px solid black;
+            font-size: 28px;
+        }
+        #i1 {
+            margin-left: 550px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h3 id = "head1">Vertical Navigation Bar</h3>
+    <div id="vertical">
+        <div id="inside">
+            <div id="inner">
+                <p id="inhead3"> Home </p>
+            </div>
+            <p id="innhead3"> Java</p>
+            <p id="innhead3">CSS</p>
+            <p id="innhead3">HTML</p>
+            <p id="innhead3">Bootstrap</p>
+        </div>
+    </div>
+    <div>
+        <h3 id="i1">Horizontal Navigation Bar</h3>
+        <div id="outside">
+            <div id="horizontal">
+            
+                <div class="a1" id="home">Home</div>
+                <div class="a1">Java</div>
+                <div class="a1">HTML</div>
+                <div class="a1">CSS</div>
+                <div class="a1"> </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
